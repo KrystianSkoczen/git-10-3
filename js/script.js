@@ -1,4 +1,16 @@
 'use strict';
+var flkty = new Flickity( '.main-carousel', {
+    cellAlign: 'left',
+    draggable: true,
+    prevNextButtons: true,
+    pageDots: false,
+    hash: true
+});
+
+$('.reset').on( 'click', function() {
+    flkty.select(0);
+});
+
 (function(){ 
 	// Zapiszemy sobei w zmiennej odwołanie do elementu z id="infos", w którym będziemy wyświetlać komunikaty po kliknięciu markera. 
 	

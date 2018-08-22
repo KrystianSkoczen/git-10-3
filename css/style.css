@@ -1,16 +1,36 @@
 body {
   padding: 10px;
+  text-align: center;
+  background-color: #162133; }
+
+.button {
   text-align: center; }
 
-.carousel {
-  height: 400px;
+.main-carousel {
   width: 100%;
-  border: solid 1px #bbb; }
+  height: 50%;
+  position: relative; }
 
-.carousel p {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold; }
+.button {
+  position: absolute;
+  right: 3%;
+  top: 1%;
+  margin: 0; }
+
+.carousel-cell {
+  padding: 0 3%;
+  height: 600px; }
+
+.change_gallery {
+  margin: 2%;
+  text-align: center; }
+
+.change_gallery a {
+  color: #fff;
+  text-decoration: none; }
+
+.change_gallery a:hover {
+  color: blue; }
 
 .container {
   max-width: 400px;
