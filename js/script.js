@@ -2,7 +2,7 @@
 var flkty = new Flickity( '.main-carousel', {
     cellAlign: 'left',
     draggable: true,
-    prevNextButtons: true,
+    prevNextButtons: false,
     pageDots: false,
     hash: true
 });
