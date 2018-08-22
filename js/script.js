@@ -53,10 +53,4 @@
 		
 	}; 
 	
-})();  
-
-/*
-UWAGA: Normalnie nie ma potrzeby wywołania funkcji initMap, tak jak robimy to poniżej. Musieliśmy jednak zmodyfikować sposób wczytywania skryptu Google Maps API ze względu na działanie CodePena. W Twoim kodzie nie powinno być tego wywołania. 
-*/
-
-initMap();
+})();
